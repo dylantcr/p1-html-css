@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+}
+body{
+    background-color: aquamarine;
+}
+p{
+    color: blueviolet;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 20px;
+  }
