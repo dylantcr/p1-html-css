@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boekingsformulier</title>
+</head>
+<body>
+    <h1>TUI boekingsformulier</h1>
+   <form action="">
+    <div>
+    <label for="fname">voornaam:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="voornaam" id='myText' onkeydown="return /[a-z]/i.test(event.key)"><br>
+    <label for="lname">achternaam:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="achternaam" id='myText' onkeydown="return /[a-z]/i.test(event.key)">
+</div>
+  <br>
+  <div>
+    <label for="bsn nummer">vul je BSN nummer in</label>
+    <input type="number" id="bsn nummer" name="bsn nummer" minlength="0" maxlength="9">
+  </div>
+  <div>
+    <td>adres</td>
+    <textarea type rows="3" cols="10" placeholder="huisnummer, straat en stad"></textarea>
+  </div>
+  <br>
+  <div>
+    <td>land</td>
+    <textarea type rows="2" cols="10" placeholder="land"></textarea>
+  </div>
+  <br>
+  <div>
+    <td>postcode</td>
+    <textarea type rows="2" cols="10" placeholder="postcode"></textarea>
+  </div>
+  <div>
+ <h5>Gender:</h5>
+  <form action="">
+    <input type="radio" name="gender" value="male" checked> Man<br>
+    <input type="radio" name="gender" value="female"> vrouw<br>
+    <input type="radio" name="gender" value="other"> anders
+</div>
+<br>
+<div>
+    <label for="months">leeftijd (Maand en Jaartal):</label>
+    <input type="month" id="months" name="months">
+    </div>
+  <br>
+  <div>
+    <label for="email">vul je email in:</label>
+    <input type="email" id="email" name="email" placeholder="vul @ in">
+</div>
+<br>
+<div>
+    <label for="pass">Wachtwoord</label>
+    <input type="password" id="pass" name="pass" placeholder="Vul u Wachtwoord in" required>
+</div>
+<br>
+<div>
+    <label for="personen">Aantal personen</label>
+    <input type="number" id="personen" name="aantal personen" min="1" max="4">
+</div>
+<br>
+  <div>
+  <label for="vakantieland">Kies vakantieland:</label>
+<select id="vakantieland" name="vakantieland">
+  <option value="Italie">Italie</option>
+  <option value="Duitsland">Duitsland</option>
+  <option value="Frankrijk">Frankrijk</option>
+  <option value="Egypte">Egypte</option>
+</select>
+</div>
+    <br>
+    <div>
+        <label for="start">vertrekdatum:</label>
+        <input type="date" id="start" name="trip-start" value="2023-09-22" min="2023-09-15" max="2023-12-31"/>
+        <label for="eind">terugkomst datum:</label>
+        <input type="date" id="eind" name="trip-start" value="2023-09-22" min="2023-09-16" max="2024-12-31"/>
+        
+    </div>
+    <br>
+    <div>
+  <input type="reset">
+  <input type="submit" value="boek nu">
+</div>
+</form>
+</body>
+</html>
