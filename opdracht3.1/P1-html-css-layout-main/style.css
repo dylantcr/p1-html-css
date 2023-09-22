@@ -8,6 +8,10 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(/opdracht3.1/P1-html-css-layout-main/img/background.jpeg);
+  background-size: 100%;
+  background-color: black;
+  color: white;
 }
 
 nav {
@@ -36,4 +40,7 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+footer{
+  background-color: #00a8c7;
 }
