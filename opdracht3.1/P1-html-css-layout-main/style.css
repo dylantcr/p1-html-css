@@ -12,6 +12,8 @@ body {
   background-size: 100%;
   background-color: black;
   color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -24,6 +26,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -43,4 +46,9 @@ nav img {
 }
 footer{
   background-color: #00a8c7;
+  text-align: center;
+  
+}
+h1{
+  text-align: center;
 }
