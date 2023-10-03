@@ -52,3 +52,39 @@ footer{
 h1{
   text-align: center;
 }
+
+ul{
+  list-style-type: none;
+  background-color: #00a8c7;
+}
+li{
+  float: left;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem black;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+ul li a:hover{
+  background-color: #E9E9E9;
+}
