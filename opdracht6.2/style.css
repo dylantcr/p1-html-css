@@ -12,6 +12,7 @@ body{
     display: flex;
     width: max-content 1200px;
     flex-direction: row-reverse;
+    float: left;
 }
 .item1{
     width: 200px;
