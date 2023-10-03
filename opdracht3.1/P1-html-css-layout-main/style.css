@@ -88,3 +88,32 @@ li a{
 ul li a:hover{
   background-color: #E9E9E9;
 }
+.dropdown-content a:hover {
+
+  background-color: #E9E9E9;
+
+}
+
+.dropdown:hover .dropdown2{
+
+  background-color: white;
+
+color: blue;
+
+z-index: 2;
+
+}
+
+.dropdown2{
+
+  color: blue;
+
+}
+
+ 
+
+.dropdown:hover .dropbtn{
+
+  color:#00a8c7;
+
+background-color: white;}
