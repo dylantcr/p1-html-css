@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    width: max-content 1200px;
+    flex-direction: row-reverse;
+}
+.item1{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    color: white;
+    margin: 10px;
+
+}
+.item2{
+    width: 200px;
+    height: 200px;
+    background: black;
+    color: white;
+    margin: 10px;
+
+}
+.item3{
+    width: 200px;
+    height: 200px;
+    background: red;
+    color: white;
+    margin: 10px;
+
+}
+.item4{
+    width: 200px;
+    height: 200px;
+    background: green;
+    color: white;
+    margin: 10px;
+
+}
