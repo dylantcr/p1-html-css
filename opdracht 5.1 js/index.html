@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan js</title>
+    <script src="opdracht5.1.jv.js"></script>
+    <link rel="stylesheet" href="style.jv.css" />
+</head>
+<body>
+
+    <h1 id="id">Hello</h1>
+
+    <button type="button" onclick="changeColor()">Klik hier</button>
+
+
+    <button class="my-class">Dit is een knop</button>
+
+
+
+    <h1 id="myHeader">yo</h1>
+
+    <button onclick="displayResult()">doei</button>
+
+
+
+    <script>
+
+    function displayResult() {
+
+      document.getElementById("myHeader").innerHTML = "doei";
+
+    }
+
+    </script>
+
+
+        <button type="button" 
+        onclick="document.getElementById('myHeader').style.color = 'blue'">
+        kleur</button>
