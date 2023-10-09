@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#NavContainer{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+.NavContent{
+    color: blue;
+text-align: center;
+
+}
+.QuarterWide{
+    flex: 0 0 35vw;
+}
