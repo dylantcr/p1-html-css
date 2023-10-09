@@ -17,4 +17,4 @@ function Calculate(getal1, getal2)
     console.log(antwoord);
 }
 
-Calculate(5,8);
+Calculate(7,8);
