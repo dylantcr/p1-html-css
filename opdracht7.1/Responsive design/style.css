@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: brown;
+}
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 10vh;
+    align-items: center;
+}
+nav h1{
+    font-size: 2rem;
+    color: white;
+}
+.hamburger{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+    display: none;
+}
+section {
+    width: 100vw;
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 20px 0px 0px 20px;
+}
+main{
+    height: 90vh;
+}
+.section1 {
+    background-color: yellow;
+}
+.section2 {
+    background-color: orange;
+}
+.section3 {
+    background-color: green;
+}
+
+@media screen and (max-width: 820px) {
+    .header-nav {
+        background-color: salmon;
+    }
+    nav{
+        justify-content: center;
+    }
+    .section1 {
+        background-color: red;
+    }
+    .section2 {
+        background-color: lightblue;
+    }
+    .section3 {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .header-nav {
+        background-color: salmon;
+    }
+    nav{
+        justify-content: center;
+    }
+    .section1 {
+        background-color: red;
+    }
+    .section2 {
+        background-color: purple;
+    }
+    .section3 {
+        background-color: black;
+    }
+    section{
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        padding: 0px;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+}
