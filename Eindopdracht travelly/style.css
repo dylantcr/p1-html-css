@@ -1,0 +1,281 @@
+:root {
+    --main-color: #4c6e97;
+    --accent-color: #131c27;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body
+{
+    padding-top: 12vh;
+}
+/* pagina css */
+.White-Font
+{
+    color: white;
+}
+.Small-Font
+{
+    font-size: 20px;
+}
+.Medium-Font
+{
+    font-size: 28px;
+}
+.Large-Font
+{
+    font-size: 38px;
+}
+.Bold-Font
+{
+    font-weight: bold;
+}
+.Underlined-Font
+{
+    text-decoration: underline;
+    text-underline-offset: .3em;
+}
+.Logo-Family
+{
+    font-family: 'Pattaya', sans-serif;
+}
+.Normal-Family
+{
+    font-family: 'Poppins', sans-serif;
+}
+.Link
+{
+    text-decoration: none;
+}
+.Centered-Text
+{
+    text-align: center;
+}
+.Small-Margin
+{
+    margin: 1vh 1vw 1vh 1vw;
+}
+.Medium-Margin
+{
+    margin: 3vh 3vw 3vh 3vw;
+}
+.Large-Margin
+{
+    margin: 5vh 5vw 5vh 5vw;
+}
+.Left-Margin
+{
+    margin-left: 5vw;
+}
+section
+{
+    width: 100vw;
+    height: 105vh;
+}
+/* Nav Bar CSS */
+nav
+{
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+}
+#travellynav
+{
+    width: 50vw;
+    display: flex;
+}
+#travellynavmenu
+{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Locations CSS */
+#Location
+{
+    background-image: url("./IMG/landing-page.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0px -12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#travellyLocationsBook
+{
+    background-color: var(--main-color);
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Benefit CSS */
+#Benefit
+{
+    background-image: url("./IMG/new-york-page.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0px -20vh;
+    background-color: #9a9a9a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Tekst Section */
+#TextSection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#TextSectionBlue
+{
+    height: 30vh;
+    width: 100vw;
+    background-color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#TextSectionWhite
+{
+    background-color: white;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TextSectionCards
+{
+    width: 20vw;
+    height: 55vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TextSectionCardsBar
+{
+    width: 20vw;
+    height: 12vh;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TextSectionCardsBarIcons
+{
+    height: 7vh;
+}
+/* Contact CSS */
+#Contact
+{
+    background-image: url("./IMG/contact-mountain.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #9a9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ContactDiv
+{
+    width: 50vw;
+    height: 55vh;
+    background-color: rgba(19, 28, 39, 0.8);
+    border-radius: 20px;
+}
+#ContactForm
+{   
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ContactInput
+{
+    height: 2em;
+}
+#ContactSubmit
+{
+    height: 8vh;
+    width: 50vw;
+    background-color: var(--main-color);
+    position: relative;
+    top: 6vh;
+    border: none;
+}
+/* De Footer */
+footer
+{
+    background-color: var(--accent-color);
+    height: 12vh;
+    width: 100vw;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Logofooter
+{
+    width: 50vw;
+    display: flex;
+}
+#Socialfooter
+{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Mobile */
+@media only screen and (max-width: 576px)  {
+    nav
+    {
+        flex-direction: column;
+    }
+    #NavLogoDiv
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    #TextSectionWhiteDiv
+    {
+        flex-direction: column;
+    }
+    .TextSectionCards
+    {
+        width: 80vw;
+    }
+    .TextSectionCardsBar
+    {
+        width: 80vw;
+    }
+    #ContactDiv
+    {
+        width: 80vw;
+    }
+    #ContactSubmit
+    {
+        width: 80vw;
+    }
+    footer
+    {
+        flex-direction: column;
+    }
+    #Logofooter
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
