@@ -1,6 +1,6 @@
 let product = 100;
 //let budget = 10;
-let budget = prompt("hoeveel geld heb je?". 0);
+let budget = prompt("hoeveel geld heb je?", 0);
 
 let Resultp = document.getElementById("ResultParagraph");
 if (product >= budget) {
